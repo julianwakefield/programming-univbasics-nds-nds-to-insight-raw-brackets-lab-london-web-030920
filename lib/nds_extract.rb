@@ -19,7 +19,7 @@ counter = 0
        counter += 1
 
  end
-puts movie_list
+puts director_name
 
 end
 
