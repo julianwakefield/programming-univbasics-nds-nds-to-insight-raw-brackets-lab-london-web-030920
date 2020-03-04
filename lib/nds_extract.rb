@@ -5,20 +5,29 @@ def directors_totals(nds)
 
 # counter = 0
 
-result = {
-
-}
+result = { }
 
 
 #   while directors_totals[0][:movies].count > counter do
 #     result << directors_totals[0][:movies][counter][worldwide_gross]
-#
+# while nds.length counter do
 #        counter += 1
-#
-#  end
-# puts result
 
-end
+       i = 0
+
+       while i < nds.length do 
+         b = 0
+         
+         while b < nds[i][:movies].length do 
+           
+         end
+        puts result
+       end
+
+
+
+
+# end
 
 #pp(nds)
 
