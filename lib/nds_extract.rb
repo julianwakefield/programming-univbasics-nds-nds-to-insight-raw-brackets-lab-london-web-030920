@@ -21,10 +21,10 @@ result = { }
          while b < nds[i][:movies].length do
 
          end
-        puts result
+
        end
 
-
+puts result
 
 
  end
