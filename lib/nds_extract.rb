@@ -8,7 +8,7 @@ result = {
 [:director_name] => nil ,
 }
 
-pp(nds)
+#pp(nds)
 
 counter = 0
 
