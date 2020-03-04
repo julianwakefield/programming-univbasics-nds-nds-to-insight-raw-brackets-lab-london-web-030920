@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-directors_totals= {}
+directors_totals = {}
 
 
 
