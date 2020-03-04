@@ -15,11 +15,11 @@ result = { }
 
        i = 0
 
-       while i < nds.length do 
+       while i < nds.length do
          b = 0
-         
-         while b < nds[i][:movies].length do 
-           
+
+         while b < nds[i][:movies].length do
+
          end
         puts result
        end
