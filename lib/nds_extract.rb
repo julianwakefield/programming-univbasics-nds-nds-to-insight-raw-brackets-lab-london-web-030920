@@ -2,28 +2,28 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-
-counter = 0
-result = { }
-
-
-  while directors_totals[0][:movies].count > counter do
-   result << directors_totals[0][:movies][counter][worldwide_gross]
-
-
-       i = 0
-
-       while i < nds.length do
-         b = 0
-
-         while b < nds[i][:movies].length do
-
-         end
-
-       end
-
-puts result
-
+#
+# counter = 0
+# result = { }
+#
+#
+#   while directors_totals[0][:movies].count > counter do
+#    result << directors_totals[0][:movies][counter][worldwide_gross]
+#
+#
+#        i = 0
+#
+#        while i < nds.length do
+#          b = 0
+#
+#          while b < nds[i][:movies].length do
+#
+#          end
+#
+#        end
+#
+# puts result
+#
 
  end
 
