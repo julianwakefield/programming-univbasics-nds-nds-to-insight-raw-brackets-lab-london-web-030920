@@ -4,11 +4,11 @@ require 'directors_database'
 def directors_totals(nds)
 
 hash = {
-  "director" =>
+  "director" => 0,
 }
 
 
-  
+
 end
 
 
