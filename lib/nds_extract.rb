@@ -8,7 +8,7 @@ result = {
   directors_database[0]"director" => nil ,
 }
 
-pp nds
+p nds
 
 end
 
