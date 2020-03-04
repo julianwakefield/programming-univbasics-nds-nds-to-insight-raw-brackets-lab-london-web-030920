@@ -5,10 +5,10 @@ def directors_totals(nds)
 
 
 result = {
-  directors_database[0]"director" => nil ,
+"director" => nil ,
 }
 
-p nds
+
 
 end
 
