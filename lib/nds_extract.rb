@@ -8,8 +8,8 @@ def directors_totals(nds)
 result = { }
 
 
-#   while directors_totals[0][:movies].count > counter do
-#     result << directors_totals[0][:movies][counter][worldwide_gross]
+  while directors_totals[0][:movies].count > counter do
+   result << directors_totals[0][:movies][counter][worldwide_gross]
 # while nds.length counter do
 #        counter += 1
 
