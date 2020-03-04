@@ -3,8 +3,9 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-hash = {
-  "director" => nil ,
+
+result = {
+  directors_database[0]"director" => nil ,
 }
 
 
