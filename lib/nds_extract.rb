@@ -4,14 +4,17 @@ require 'directors_database'
 def directors_totals(nds)
 
 counter = 0
+row_index = 0
+column_index = 0
 result = {
-  []  => nil ,
+  []  =>  ,
 }
 
-  while directors_totals[0][:movies].count > counter do
-    result << directors_totals[0][:movies][counter][worldwide_gross]
 
-       counter += 1
+  # while directors_totals[0][:movies].count > counter do
+  #   result << directors_totals[0][:movies][counter][worldwide_gross]
+  #
+  #      counter += 1
 
  end
 puts result
