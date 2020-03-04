@@ -3,26 +3,27 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-
+counter = 0
 result = {
   []  => nil ,
 }
 
-#pp(nds)
 
-# counter = 0
-#
-#
-#  while directors_database[0][:movies].count > counter do
-#     result[:director_name] << directors_database[0][:movies][counter][worldwide_gross]
-#
-#        counter += 1
-#
-#  end
-# puts director_name
+
+
+
+
+ while directors_database[0][:movies].count > counter do
+    result[:director_name] << directors_database[0][:movies][counter][worldwide_gross]
+
+       counter += 1
+
+ end
+puts result
 
 end
 
+#pp(nds)
 
 # Remember, it's always OK to pretty print what you get *in* to make sure
 # that you know what you're starting with!
