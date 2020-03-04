@@ -6,7 +6,7 @@ def directors_totals(nds)
 counter = 0
 
 result = {
-  []  =>  ,
+  [director]  => "total" ,
 }
 
 
