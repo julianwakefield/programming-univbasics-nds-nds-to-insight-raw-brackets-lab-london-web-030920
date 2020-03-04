@@ -5,7 +5,7 @@ def directors_totals(nds)
 
 
 result = {
-[:director_name] => nil ,
+ "Stephen Spielberg" => nil ,
 }
 
 #pp(nds)
