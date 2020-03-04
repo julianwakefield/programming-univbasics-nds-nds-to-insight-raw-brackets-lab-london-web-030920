@@ -9,7 +9,7 @@ result = {
 }
 
   while directors_database[0][:movies].count > counter do
-    result[] << directors_database[0][:movies][counter][worldwide_gross]
+    result << directors_database[0][:movies][counter][worldwide_gross]
 
        counter += 1
 
