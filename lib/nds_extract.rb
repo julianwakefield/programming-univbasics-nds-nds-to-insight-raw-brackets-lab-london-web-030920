@@ -5,10 +5,21 @@ def directors_totals(nds)
 
 
 result = {
-"director" => nil ,
+[:director_name] => nil ,
 }
 
 pp(nds)
+
+counter = 0
+ = []
+
+ while directors_database[0][:movies].count > counter do
+    result[:director_name] << directors_database[0][:movies][counter][worldwide_gross]
+
+       counter += 1
+
+ end
+puts movie_list
 
 end
 
