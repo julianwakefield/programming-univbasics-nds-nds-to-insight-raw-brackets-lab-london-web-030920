@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-counter = 0
+# counter = 0
 result = { }
 
 
@@ -24,9 +24,7 @@ result = { }
           director_index += 1
 
        end
-
-puts result
-
+ result
 
  end
 
