@@ -12,9 +12,9 @@ result = {
 
 #   while directors_totals[0][:movies].count > counter do
 #     result << directors_totals[0][:movies][counter][worldwide_gross]
-# 
+#
 #        counter += 1
-# 
+#
 #  end
 # puts result
 
