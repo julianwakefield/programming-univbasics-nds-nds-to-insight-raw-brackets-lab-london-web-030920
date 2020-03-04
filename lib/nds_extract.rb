@@ -8,12 +8,7 @@ result = {
   []  => nil ,
 }
 
-
-
-
-
-
- while directors_database[0][:movies].count > counter do
+  while directors_database[0][:movies].count > counter do
     result[:director_name] << directors_database[0][:movies][counter][worldwide_gross]
 
        counter += 1
