@@ -8,7 +8,7 @@ result = {
 "director" => nil ,
 }
 
-p nds
+
 
 end
 
