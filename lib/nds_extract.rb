@@ -8,7 +8,7 @@ result = {
 "director" => nil ,
 }
 
-
+pp(nds)
 
 end
 
