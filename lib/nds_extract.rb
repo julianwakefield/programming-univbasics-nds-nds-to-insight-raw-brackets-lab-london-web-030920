@@ -3,8 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-# counter = 0
-
+counter = 0
 result = { }
 
 
