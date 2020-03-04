@@ -5,7 +5,7 @@ def directors_totals(nds)
 
 
 result = {
- "Stephen Spielberg" => nil ,
+  => nil ,
 }
 
 #pp(nds)
