@@ -3,11 +3,11 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-print
 
-  nil
+
+
 end
-
+nil
 
 # Remember, it's always OK to pretty print what you get *in* to make sure
 # that you know what you're starting with!
