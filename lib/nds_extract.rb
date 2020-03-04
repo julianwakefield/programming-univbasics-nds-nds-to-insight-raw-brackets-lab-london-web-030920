@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-results = [directors_database]directors_totals
+results = [directors_database][directors_totals]
 
 
 
