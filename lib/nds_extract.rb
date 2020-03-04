@@ -15,7 +15,7 @@ result = { }
 
        while director_index < nds.length do
          movie_index = 0
-      director_name = nds[director_index][:name] 
+      director_name = nds[director_index][:name]
           result[director_name] = 0
          while movie_index < nds[director_index][:movies].length do
 
